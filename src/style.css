@@ -1,0 +1,21 @@
+.quiz::after {
+  content: url("../images/icon-arrow.svg");
+}
+.quiz::after:hover {
+  color: hsl(0, 94%, 66%);
+}
+.quiz.active::after {
+  content: url(../images/icon-arrow.svg);
+  transform: rotate(180deg);
+}
+.quiz.active + .ans {
+  display: block;
+}
+.linkdisplay {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .linkdisplay {
+    flex-direction: column;
+  }
+}
