@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (http://127.0.0.1:5500/index.html?email=me%40example.com#share)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://bookmark-landing-page-pearl.vercel.app)
 
 ### Run the project
 
